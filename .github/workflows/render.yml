@@ -3,7 +3,7 @@ name: Deploy to Render
 on:
     push:
       tags:
-        - main
+        - '*'
     pull_request:
       branches:
         - main
